@@ -10,7 +10,7 @@ I call [Oudewater](https://en.wikipedia.org/wiki/Oudewater), the Netherlands, ho
 
 ## Personal Interests
 - I like LEGO Technic and jigsaw puzzles, and I often pick up one or both during longer holidays. They help me decompress and ease into a relaxed holiday rhythm.
-- I love tinkering with both software and hardware. Right now, I’m experimenting with Home Assistant and exploring modern web technologies using WordPress and [Jekyll](./tags/jekyll/) (this website). I’m also drawn to anything related to electrical engineering and networking, and I’ve become a bit of a UniFi collector.
+- I love tinkering with both software and hardware. Right now, I’m experimenting with Home Assistant and exploring modern web technologies using WordPress and [Jekyll](https://lab.schoonens.nl/tags/jekyll/) (this website). I’m also drawn to anything related to electrical engineering and networking, and I’ve become a bit of a UniFi collector.
 - I enjoy reading crime novels and biographies of fascinating people in politics, product, and technology.
 - I’m a fan of strong coffee. Depending on the time of day, I usually go for either a double espresso or a flat white.
 - I’m a photography enthusiast and occasionally try to capture some decent shots myself.
