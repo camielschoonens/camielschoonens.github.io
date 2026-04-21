@@ -4,7 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-Hi, my name is Camiel, and thank you for stopping by. I am a husband and proud father to three children, an Apple fanboy, a runner, a reader, and a photography lover. In my spare time, I am always looking for a software or hardware side project to tinker with.
+Hi, my name is Camiel, thank you for stopping by. I’m a husband and proud father of three, an Apple fanboy, a runner, a reader, and a photography enthusiast. In my spare time, I’m usually tinkering with a new software or hardware side project.
 
 I call [Oudewater](https://en.wikipedia.org/wiki/Oudewater), the Netherlands, home. I have been living here with my family since 2006.
 
