@@ -12,7 +12,7 @@ Create a new file in `_posts/` following this naming convention: _posts/YYYY-MM-
 
 With this front matter:
 
----
+'---
 layout: post
 title: "Your Post Title"
 date: YYYY-MM-DD HH:MM:SS +0200
@@ -22,8 +22,7 @@ description: A short summary of the post.
 pin: false
 toc: false
 published: true
----
-```
+'---
 
 ## Deployment
 
