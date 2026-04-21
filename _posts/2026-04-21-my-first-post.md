@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "My First Post"
+date: 2026-04-20 22:50
 description: "My first post on this website, proofing everything works."
 categories: [Notes]
 tags: [jekyll]
