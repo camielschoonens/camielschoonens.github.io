@@ -1,39 +1,34 @@
-# Chirpy Starter
+# lab.schoonens.nl
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Personal blog by Camiel Schoonens, built with [Jekyll](https://jekyllrb.com) and the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) theme. Hosted on [GitHub Pages](https://pages.github.com) and available at [lab.schoonens.nl](https://lab.schoonens.nl).
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+## About
 
-## Why This Starter Exists
+A personal blog covering tech, tools, and tinkering. Posts are written in Markdown and support categories, tags, and RSS.
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+## Writing a Post
 
-To unlock all features, the following files must be present in your Jekyll site:
+Create a new file in `_posts/` following this naming convention: _posts/YYYY-MM-DD-your-post-title.md
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
+With this front matter:
+
+---
+layout: post
+title: "Your Post Title"
+date: YYYY-MM-DD HH:MM:SS +0200
+categories: [Category]
+tags: [tag1, tag2]
+description: A short summary of the post.
+pin: false
+toc: false
+published: true
+---
 ```
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+## Deployment
 
-## Usage
+Pushing to `main` triggers a GitHub Actions workflow that builds and deploys the site automatically. Build status can be monitored in the [Actions tab](https://github.com/camielschoonens/camielschoonens.github.io/actions).
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## RSS Feed
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+Available at [lab.schoonens.nl/feed.xml](https://lab.schoonens.nl/feed.xml).
