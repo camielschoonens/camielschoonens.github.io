@@ -13,12 +13,11 @@ pin: false
 published: false
 ---
 
-I run a full UniFi stack at home: gateway, switches, APs, and a set of Protect cameras covering the property. Unifi is my goto brand when it comes to networking and security. Yes it's expensive but the convenience of a product that just works is worth it if you ask me. Before picking up the UTR, my mobile networking setup was already solid and secure: I have dedicated WireGuard connections on every mobile device in my household, auto-connecting based on SSID identification. It worked fine. The UTR isn't a fix for a broken setup. It's an elimination of the friction of having to connect to public W-Fi on multiple devices.
+I run a full UniFi stack at home: gateway, switches, APs, and a set of Protect cameras covering the property. Unifi is my goto brand when it comes to networking and security. Yes it's expensive but the convenience of a product that just works is worth it if you ask me. Before picking up the UTR, my mobile networking setup was already solid and secure: I have dedicated WireGuard connections on every mobile device in my household, auto-connecting based on SSID identification. It worked fine. The UTR isn't a fix for a broken setup. It's the elimination of the friction of having to connect to public W-Fi on multiple devices.
 
 ## The Old Way Was Fine. This Is Better.
 
-Per-device WireGuard with SSID-based auto-connect is a legitimate solution. But it has
-a consistent pain point: public Wi-Fi captive portals. Every device needs to hit the
+Up until today I had a setup with per-device WireGuard installations with SSID-based auto-connect. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public Wi-Fi captive portals. Every device needs to hit the
 portal individually before the tunnel can come up. Three, four, five devices means three,
 four, five captive portal interactions, on whatever hostile hotel login page is in front
 of you, before you're actually online and tunneled.
