@@ -1,61 +1,23 @@
 ---
 layout: post
 title: "Travelling with the Ubiquiti UniFi Travel Router"
-date: 2026-04-24
-categories: [Unifi]
+date: 2026-04-22
+categories: [UniFi]
 tags: [travel, networking]
-description: My first impressions of the UniFi Travel Router using it for three days in a row.
+description: My first impressions of the UniFi Travel Router, a device that streamlines my travel setup further.
 image:
   path: # /assets/img/your-image.jpg
   alt: # alt text for the cover image
 toc: false
 pin: false
-published: false
+published: true
 ---
 
-I run a full UniFi stack at home: gateway, switches, APs, and a set of Protect cameras covering the property. Unifi is my goto brand when it comes to networking and security. Yes it's expensive but the convenience of a product that just works is worth it if you ask me. Before picking up the UTR, my mobile networking setup was already solid and secure: I have dedicated WireGuard connections on every mobile device in my household, auto-connecting based on SSID identification. It worked fine. The UTR isn't a fix for a broken setup. It's the elimination of the friction of having to connect to public W-Fi on multiple devices.
+I run a full UniFi stack at home. I have a UniFi Cloud Fiber gateway, multiple switches and APs, a doorbell and a set of Protect cameras covering my property. UniFi is my go-to brand for networking and security. Yes, it’s expensive, but the convenience of a product that works is worth it, if you ask me. Before picking up the UniFi Travel Router (UTR), my mobile networking setup was already solid and secure. I have dedicated WireGuard VPN connections on every mobile device in my household that auto-connect based on SSID identification. It worked fine and it still does. The UTR isn’t a fix for a broken setup, it’s the elimination of the friction of having to connect to public wifi on multiple devices.
 
-## The Old Way Was Fine. This Is Better.
+Until today, I had a setup with per-device WireGuard installations and an SSID-based auto-connecting VPN. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public wifi captive portals. Every device needs to hit the
+portal individually before the tunnel can come up. This is time-consuming and sometimes not even possible when hotels or airlines limit the number of devices you can connect.
 
-Up until today I had a setup with per-device WireGuard installations with SSID-based auto-connect. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public Wi-Fi captive portals. Every device needs to hit the
-portal individually before the tunnel can come up. Three, four, five devices means three,
-four, five captive portal interactions, on whatever hostile hotel login page is in front
-of you, before you're actually online and tunneled.
+The UTR collapses that entirely. The UTR connects to the hotel Wi-Fi. You sign in to the captive portal via the UniFi app, and that’s it. Once the UTR is online it sets up the WireGuard tunnel to my Cloud Fiber Gateway at home and I’m ready to go. Every device behind the UTR is online and tunneled immediately.
 
-The UTR collapses that entirely. One device connects to the hotel Wi-Fi, one captive
-portal interaction via the UniFi app, WireGuard tunnel comes up on the router. Every
-device behind it is online and tunneled immediately. No per-device portal dance, no
-waiting for auto-connect to kick in on each one. The cameras stay in the picture the
-same way they did before. I access Protect directly via the app, doorbell alerts work
-as expected, and the tunnel means that access runs over my own network path rather than
-purely through Ubiquiti's cloud relay.
-
-## First Real-World Use: Barcelona
-
-I pre-loaded the WireGuard profile onto the UTR before leaving. Do this at home while
-you have a sane environment to test against. At the hotel, I connected the UTR to the
-room's Wi-Fi in client mode. First attempt didn't work. The UTR defaulted to Teleport
-rather than my WireGuard config. Quick fix in the app to explicitly set WireGuard as the
-active tunnel, second attempt was clean. All devices up, traffic routing home, Protect
-accessible, doorbell working.
-
-Worth knowing: if Teleport is enabled on your UniFi account, the UTR reaches for it first.
-If you're running your own WireGuard server, explicitly set it as the active VPN in the
-app before your trip. Not in the hotel room with five devices waiting on you.
-
-## Hardware
-
-The UTR is small enough to sit in a jacket pocket alongside a passport and runs on just
-5W, so any USB port works including the bedside charger in a budget hotel. You get two
-USB-C ports (power and tethering, separate) and two GbE RJ45 ports for WAN and LAN.
-The polycarbonate case does get warm under load, which is worth knowing if it's sitting
-on a nightstand. The radio stack is Wi-Fi 5, which is a dated spec, but in practice the
-bottleneck on hotel uplinks is never the UTR's radios. No battery, no SIM, no Wi-Fi 6.
-For hotels and Airbnbs with power and an uplink source, none of that matters.
-
-## Bottom Line
-
-The UTR doesn't replace a working travel setup. It streamlines it. Pre-load your
-WireGuard profile at home, explicitly set it as the active VPN if you have Teleport
-on your account, and from that point forward it's one captive portal interaction for
-every device you're carrying. Clean $79 fix for a real friction point.
+The UTR is a real travel device. It’s small and runs on just 5W, so any USB port works. You get two USB-C ports (one for power and one for tethering, separate) and two GbE RJ45 ports for WAN and LAN connections. You can configure the WAN port as an additional LAN port if needed. The case does get warm under load, which is worth knowing. The radio stack is Wi-Fi 5, which is dated but, in practice, not a bottleneck for day-to-day usage.
