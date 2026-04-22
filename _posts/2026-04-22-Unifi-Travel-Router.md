@@ -5,9 +5,6 @@ date: 2026-04-22
 categories: [UniFi]
 tags: [travel, networking]
 description: My first impressions of the UniFi Travel Router, a device that streamlines my travel setup further.
-image:
-  path: # /assets/img/your-image.jpg
-  alt: # alt text for the cover image
 toc: false
 pin: false
 published: true
