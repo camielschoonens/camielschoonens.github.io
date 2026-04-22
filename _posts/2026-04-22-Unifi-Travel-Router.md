@@ -10,7 +10,9 @@ pin: false
 published: true
 ---
 
-I run a full UniFi stack at home. I have a UniFi Cloud Fiber gateway, multiple switches and APs, a doorbell and a set of Protect cameras covering my property. UniFi is my go-to brand for networking and security. Yes, it’s expensive, but the convenience of a product that works is worth it, if you ask me. Before picking up the UniFi Travel Router (UTR), my mobile networking setup was already solid and secure. I have dedicated WireGuard VPN connections on every mobile device in my household that auto-connect based on SSID identification. It worked fine and it still does. The UTR isn’t a fix for a broken setup, it’s the elimination of the friction of having to connect to public wifi on multiple devices.
+I run a full UniFi stack at home. I have a UniFi Cloud Fiber gateway, multiple switches and APs, a doorbell and a set of Protect cameras covering my property. UniFi is my go-to brand for networking and security. Yes, it’s expensive, but the convenience of a product that works is worth it, if you ask me.
+
+Before picking up the UniFi Travel Router (UTR), my mobile networking setup was already solid and secure. I have dedicated WireGuard VPN connections on every mobile device in my household that auto-connect based on SSID identification. It worked fine and it still does. The UTR isn’t a fix for a broken setup, it’s the elimination of the friction of having to connect to public wifi on multiple devices.
 
 Until today, I had a setup with per-device WireGuard installations and an SSID-based auto-connecting VPN. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public wifi captive portals. Every device needs to hit the
 portal individually before the tunnel can come up. This is time-consuming and sometimes not even possible when hotels or airlines limit the number of devices you can connect.
