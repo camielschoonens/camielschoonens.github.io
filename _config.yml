@@ -106,7 +106,7 @@ avatar: https://avatars.githubusercontent.com/u/38261302?v=4
 social_preview_image: # string, local or CORS resources
 
 # boolean type, the global switch for TOC in posts.
-toc: true
+toc: false
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
