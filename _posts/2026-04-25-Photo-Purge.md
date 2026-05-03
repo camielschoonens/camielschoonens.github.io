@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "My photo cleanup workflow"
+title: My photo cleanup workflow
 date: 2026-04-25 15:30
-description: "A practical workflow for cleaning up years of family photos using PhotoSweeper and ExifRenamer on macOS. Deduplicating, trimming burst series, and renaming files by EXIF data."
+description: A practical workflow for cleaning up years of family photos using PhotoSweeper and ExifRenamer on macOS. Deduplicating, trimming burst series, and renaming files by EXIF data.
 categories: [File Management]
 tags: [photography, workflow]
 pin: false

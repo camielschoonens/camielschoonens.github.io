@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Travelling with the Ubiquiti UniFi Travel Router"
+title: Travelling with the Ubiquiti UniFi Travel Router
 date: 2026-04-22
 categories: [UniFi]
 tags: [travel, networking]
