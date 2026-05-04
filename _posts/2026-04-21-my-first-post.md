@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My First Post
+title: My first post
 date: 2026-04-20 22:50 +0200
 description: My first post on this website, proofing everything works.
 categories: [Notes]
