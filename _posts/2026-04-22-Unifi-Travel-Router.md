@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Travelling with the Ubiquiti UniFi Travel Router
-date: 2026-04-22
+date: 2026-04-22 22:50 +0200
 categories: [UniFi]
 tags: [travel, networking]
 description: My first impressions of the UniFi Travel Router, a device that streamlines my travel setup further.

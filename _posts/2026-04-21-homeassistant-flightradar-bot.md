@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Home Assistant Bot tracks planes flying over my house
-date: 2026-04-21 15:50
+date: 2026-04-21 15:50  +0200
 description: I connected a Home Assistant Bot to Flight Radar on my self-hosted Fediverse (Mastodon) instance to receive private notifications about planes flying over my house.
 categories: [Home Assistant]
 tags: [home-assistant, mastodon, flightradar, automation]
