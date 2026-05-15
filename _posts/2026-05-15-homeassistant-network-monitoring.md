@@ -2,7 +2,7 @@
 layout: post
 title: Building a network monitoring dashboard in Home Assistant
 date: 2026-05-15 20:00 +0200
-description: How I built a real-time network monitoring dashboard in Home Assistant using SNMP, derivative sensors, and different charts — covering WAN throughput, per-AP bandwidth, and daily/monthly data usage.
+description: How I built a real-time network monitoring dashboard in Home Assistant using SNMP, derivative sensors, and different charts, covering WAN throughput, per-AP bandwidth, and daily/monthly data usage.
 categories: [Home Assistant]
 tags: [home-assistant, unifi, snmp, networking, dashboard]
 pin: false
