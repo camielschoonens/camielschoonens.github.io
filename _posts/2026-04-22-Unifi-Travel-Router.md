@@ -14,8 +14,9 @@ I run a full UniFi stack at home. I have a UniFi Cloud Fiber gateway, multiple s
 
 Before picking up the UniFi Travel Router (UTR), my mobile networking setup was already solid and secure. I have dedicated WireGuard VPN connections on every mobile device in my household that auto-connect based on SSID identification. It worked fine and it still does. The UTR isn’t a fix for a broken setup, it’s the elimination of the friction of having to connect to public wifi on multiple devices.
 
-Until today, I had a setup with per-device WireGuard installations and an SSID-based auto-connecting VPN. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public wifi captive portals. Every device needs to hit the
-portal individually before the tunnel can come up. This is time-consuming and sometimes not even possible when hotels or airlines limit the number of devices you can connect.
+Until today, I had a setup with per-device WireGuard installations and an SSID-based auto-connecting VPN. It is a legitimate solution that served me well for years. But it also has a consistent pain point: public wifi captive portals. Every device needs to hit the portal individually before the tunnel can come up. This is time-consuming and sometimes not even possible when hotels or airlines limit the number of devices you can connect.
+
+![](/assets/img/6E82CA3B-06F2-4137-9B41-8CB9C943E383.jpg)
 
 The UTR collapses that entirely. The UTR connects to the hotel Wi-Fi. You sign in to the captive portal via the UniFi app, and that’s it. Once the UTR is online it sets up the WireGuard tunnel to my Cloud Fiber Gateway at home and I’m ready to go. Every device behind the UTR is online and tunneled immediately.
 
