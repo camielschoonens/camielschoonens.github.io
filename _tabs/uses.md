@@ -2,7 +2,7 @@
 # the default layout is 'page'
 title: Uses
 icon: fas fa-screwdriver-wrench
-order: 15
+order: 11
 ---
 This page lists the hardware and software I use on a daily basis, inspired by the [/uses](https://slashpages.net) movement. This page is a living document that I update whenever something changes. No affiliate links, no sponsorships, just the stuff I actually use.
 
