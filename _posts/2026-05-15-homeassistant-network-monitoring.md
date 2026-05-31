@@ -41,6 +41,7 @@ Getting from raw SNMP data to a Mbit/s reading in HA takes three layers:
 
 **1. SNMP sensors** — raw cumulative byte counters, tagged `state_class: total_increasing` so HA handles resets correctly:
 
+{% raw %}
 ```yaml
 - platform: snmp
   host: 192.168.1.1
@@ -52,9 +53,11 @@ Getting from raw SNMP data to a Mbit/s reading in HA takes three layers:
   unit_of_measurement: "octets"
   state_class: total_increasing
 ```
+{% endraw %}
 
 **2. Derivative sensors** — calculate the rate of change in octets per second:
 
+{% raw %}
 ```yaml
 - platform: derivative
   source: sensor.wan_in_octets
@@ -64,11 +67,13 @@ Getting from raw SNMP data to a Mbit/s reading in HA takes three layers:
   time_window: "00:00:30"
   round: 2
 ```
+{% endraw %}
 
 The `time_window` of 30 seconds smooths out polling jitter without introducing too much lag.
 
 **3. Template sensors** — convert octets/s to Mbit/s (octets × 8 / 1,000,000):
 
+{% raw %}
 ```yaml
 - name: "WAN Download"
   unique_id: wan_download_mbps
@@ -76,6 +81,7 @@ The `time_window` of 30 seconds smooths out polling jitter without introducing t
   state_class: measurement
   state: "{{ [((states('sensor.wan_download_octets_per_sec') | float(0)) * 8 / 1000000) | round(2), 0] | max }}"
 ```
+{% endraw %}
 
 The `| max` with 0 prevents negative spikes when the derivative briefly dips below zero.
 
@@ -85,6 +91,7 @@ I went through a few failed approaches before landing on this pipeline. My first
 
 For the WAN graph I used [mini-graph-card](https://github.com/kalkih/mini-graph-card). It's cleaner than apexcharts for simple time-series and doesn't need a formatter function to display units:
 
+{% raw %}
 ```yaml
 type: custom:mini-graph-card
 name: WAN Bandbreedte
@@ -107,6 +114,7 @@ entities:
     name: Upload
     color: '#f77f00'
 ```
+{% endraw %}
 
 For the five access points, I grouped them all together on the right side of the dashboard. Each AP gets a distinct color pair for download and upload.
 
@@ -116,6 +124,7 @@ For the five access points, I grouped them all together on the right side of the
 
 Once the SNMP sensors were in place, adding daily and monthly data counters was straightforward using `utility_meter`:
 
+{% raw %}
 ```yaml
 utility_meter:
   wan_download_daily:
@@ -127,6 +136,7 @@ utility_meter:
     name: WAN Download - Maand
     cycle: monthly
 ```
+{% endraw %}
 
 I added template sensors on top to convert octets to GB for display, since raw octet values in the billions aren't useful on a dashboard card.
 
