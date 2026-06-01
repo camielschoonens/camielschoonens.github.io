@@ -8,7 +8,7 @@ This page lists the hardware and software I use on a daily basis, inspired by th
 
 ## Unifi Networking Gear
 
-My home network runs entirely on Unifi hardware, managed through a Cloud Gateway Fiber as the core router and firewall. The gateway is equipped with an SFP+ module to connect the fiber directly, bypassing the Nokia ONT supplied by my provider. It also doubles as an NVR, with a [Lexar NM790 2TB drive](https://tweakers.net/pricewatch/1932944/lexar-nm790-zonder-heatsink-2tb.html) storing around 8 days of continuous 4K footage from four cameras directly in the router. The backbone is a USW Flex 2.5G 8 PoE switch in the meter cupboard with a 10 GbE SFP+ uplink. From there, 2.5 GbE switches cover the office, living room and attic, with a GbE switch in the garage.
+My home network runs entirely on [Unifi hardware](https://lab.schoonens.nl/categories/unifi/), managed through a Cloud Gateway Fiber as the core router and firewall. The gateway is equipped with an SFP+ module to connect the fiber directly, bypassing the Nokia ONT supplied by my provider. It also doubles as an NVR, with a [Lexar NM790 2TB drive](https://tweakers.net/pricewatch/1932944/lexar-nm790-zonder-heatsink-2tb.html) storing around 8 days of continuous 4K footage from four cameras directly in the router. The backbone is a USW Flex 2.5G 8 PoE switch in the meter cupboard with a 10 GbE SFP+ uplink. From there, 2.5 GbE switches cover the office, living room and attic, with a GbE switch in the garage.
 
 | Product | Description | Location | Price |
 |---------|-------------|----------|-------|
