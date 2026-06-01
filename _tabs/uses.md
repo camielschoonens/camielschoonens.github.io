@@ -13,9 +13,9 @@ My home network runs entirely on Unifi hardware, managed through a Cloud Gateway
 | Product | Description | Location | Price |
 |---------|-------------|----------|-------|
 | [Cloud Gateway Fiber](https://eu.store.ui.com/eu/en/products/ucg-fiber) | 10G router | Meter Cupboard | [Tweakers](https://tweakers.net/pricewatch/2179280/ubiquiti-unifi-cloud-gateway-fiber.html) |
-| [Switch Flex 2.5G PoE](https://eu.store.ui.com/eu/en/products/usw-flex-2-5g-8-poe) | 8-port 2.5G PoE switch | Meter Cupboard, Office, Attic | [Tweakers](https://tweakers.net/pricewatch/2158734/ubiquiti-flex-25g-poe.html) |
+| [Switch Flex 2.5G PoE](https://eu.store.ui.com/eu/en/products/usw-flex-2-5g-8-poe) | 8-port 2.5G PoE switch | Meter Cupboard | [Tweakers](https://tweakers.net/pricewatch/2158734/ubiquiti-flex-25g-poe.html) |
 | [USW Lite 8 PoE](https://eu.store.ui.com/eu/en/category/switching-utility/products/usw-lite-8-poe) | 8-port GbE PoE switch | Garage | [Tweakers](https://tweakers.net/pricewatch/1596210/ubiquiti-unifi-switch-lite-8-poe.html) |
-| [Switch Flex Mini 2.5G](https://eu.store.ui.com/eu/en/category/switching-utility/products/usw-flex-2-5g-5) | 5-port 2.5G switch | Living Room | [Tweakers](https://tweakers.net/pricewatch/2115302/ubiquiti-flex-mini-25g.html) |
+| [Switch Flex Mini 2.5G](https://eu.store.ui.com/eu/en/category/switching-utility/products/usw-flex-2-5g-5) | 5-port 2.5G switch | Living Room, Office, Attic | [Tweakers](https://tweakers.net/pricewatch/2115302/ubiquiti-flex-mini-25g.html) |
 
 ### Access Points
 
@@ -23,7 +23,7 @@ Wireless is handled by three U7 Pro access points and one U7 Pro Wall, covering 
 
 | Product | Description | Location | Price |
 |---------|-------------|----------|-------|
-| [U7 Pro](https://eu.store.ui.com/eu/en/category/wifi-flagship/products/u7-pro) | WiFi 7 access point | Meter Cupboard, Living Room, Attic | [Tweakers](https://tweakers.net/pricewatch/2030534/ubiquiti-unifi-u7-pro-per-stuk.html) |
+| [U7 Pro](https://eu.store.ui.com/eu/en/category/wifi-flagship/products/u7-pro) | WiFi 7 access point | Meter Cupboard, Kitchen, Attic | [Tweakers](https://tweakers.net/pricewatch/2030534/ubiquiti-unifi-u7-pro-per-stuk.html) |
 | [U7 Pro Wall](https://eu.store.ui.com/eu/en/category/wifi-wall/products/u7-pro-wall) | Wall-mounted WiFi 7 access point | Office | [Tweakers](https://tweakers.net/pricewatch/2084440/ubiquiti-unifi-u7-pro-wall.html) |
 | [AC Mesh](https://eu.store.ui.com/eu/en/category/wifi-outdoor/products/uap-ac-mesh) | Outdoor WiFi 5 access point | Garage | [Tweakers](https://tweakers.net/pricewatch/668029/ubiquiti-unifi-ac-mesh-1-pack.html) |
 
