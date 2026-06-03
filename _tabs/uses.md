@@ -73,3 +73,37 @@ I shoot with two systems depending on the context. The Canon EOS R6 Mark II is m
 | Wandrd PRVKE Photo Bundle | Camera backpack | [Kamera Express](https://www.kamera-express.nl/wandrd-prvke-photo-bundle-rugzak-v4-zwart-4) |
 | Urth ND2-400 Variable 43mm | Variable ND filter for RF 16mm | [Kamera Express](https://www.kamera-express.nl/urth-43mm-nd2-400-1-8-6-stop-variable-nd-le) |
 | Hoya HDX CIR-PL 58mm | Circular polarizer for RF 35mm | [Kamera Express](https://www.kamera-express.nl/hoya-58mm-hdx-cir-pl-1220747875) |
+
+## 💻 Hardware
+
+| Product | Description |
+|---------|-------------|
+| Apple Mac Mini M4 | 10-core CPU, 10-core GPU, 32GB, 512GB — home workstation |
+| MacBook Air 13" M2 | 8-core CPU, 8-core GPU, 16GB, 512GB — work laptop |
+| iPhone Air | 256GB, dual sim, light weight and fit for my purpose |
+| iPad Pro 12.9" 5th gen | My go to travel laptop as it has a 4G/5G eSim |
+| Apple Watch Ultra 2 | Love the size, bands and extra battery life |
+| Synology DS220 | 16GB RAM, 6TB internal, 5TB external |
+| Logitech MX Master 3S | Best mouse if you ask me |
+| Logitech MX Keys | Best keyboard if you ask me |
+| LG UltraFine 32" 4K | Desktop monitor |
+
+## 🔊 Audio
+
+| Product | Description |
+|---------|-------------|
+| AirPods Pro 2nd Gen | Daily use |
+| Bose QuietComfort 20 | For long haul flights |
+| Sonos Beam | Living Room |
+| Sonos One (S1) | Kitchen, Office |
+| Apple HomePod Mini | Children's bedrooms |
+
+## 🛠 Software
+
+For the software I use daily, have a look at my [/defaults](https://lab.schoonens.nl/defaults/) page.
+
+## ☁️ Services
+
+| Service | Description |
+|---------|-------------|
+| [Backblaze](https://www.backblaze.com) | Off-site backups of my Synology NAS |
