@@ -54,6 +54,7 @@ I shoot with two systems depending on the context. The Canon EOS R6 Mark II is m
 | Product | Description | Link |
 |---------|-------------|-------|
 | Canon EOS R6 Mark II | Full-frame mirrorless body | [Kamera Express](https://www.kamera-express.nl/canon-eos-r6-mark-ii-body) |
+| Canon RF 15-35mm F/2.8L IS USM | Ultra-wide | [Kamera Express](https://www.kamera-express.nl/canon-rf-15-35mm-f-2-8l-is-usm) |
 | RF 16mm F/2.8 STM | Ultra-wide prime | [Kamera Express](https://www.kamera-express.nl/canon-rf-16mm-f-2-8-stm) |
 | RF 24-70mm F/2.8 IS USM | Standard zoom, workhorse lens | [Kamera Express](https://www.kamera-express.nl/canon-rf-24-70mm-f-2-8l-is-usm) |
 | RF 35mm F/1.8 IS Macro STM | Wide prime, macro capable | [Kamera Express](https://www.kamera-express.nl/canon-rf-35mm-f-1-8-is-macro-stm) |
@@ -73,6 +74,7 @@ I shoot with two systems depending on the context. The Canon EOS R6 Mark II is m
 | Wandrd PRVKE Photo Bundle | Camera backpack | [Kamera Express](https://www.kamera-express.nl/wandrd-prvke-photo-bundle-rugzak-v4-zwart-4) |
 | Urth ND2-400 Variable 43mm | Variable ND filter for RF 16mm | [Kamera Express](https://www.kamera-express.nl/urth-43mm-nd2-400-1-8-6-stop-variable-nd-le) |
 | Hoya HDX CIR-PL 58mm | Circular polarizer for RF 35mm | [Kamera Express](https://www.kamera-express.nl/hoya-58mm-hdx-cir-pl-1220747875) |
+| Benro Pro Filter Kit | Benro ND Filters | [Kamera Express](https://www.kamera-express.nl/benro-bas-meelker-pro-filter-kit) |
 
 ## 💻 Hardware
 
